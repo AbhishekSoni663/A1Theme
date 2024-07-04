@@ -27,12 +27,19 @@
         width: 70px !important;
         background: none !important;
     }
+    .second-drop:hover{
+        background: none !important;
+    }
 }
-
 @media (max-width: 991px) {
     .sec-ul-1, .second-offer {
         width: 100% !important;
         display: flex;
         flex-direction: column;
     }
+}
+@media (max-width: 575px) {
+  .third-cat-a img {
+      width: 22px;
+  }
 }

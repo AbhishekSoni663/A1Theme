@@ -72,7 +72,9 @@ h1.elementor_heading {
         width: 70px !important;
         background: none;
     }
-
+    .second-drop:hover{
+        background: none !important;
+    }
     .box_one-new {
         padding-left: 0px !important;
     }
@@ -113,3 +115,8 @@ h1.elementor_heading {
         width: 80px !important;
      }
 }
+@media (max-width: 575px) {
+    .third-cat-a img {
+        width: 22px;
+    }
+  }

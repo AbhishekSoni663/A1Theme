@@ -146,7 +146,10 @@
 @media(max-width:767px) {
     .second-drop {
         width: 70px !important;
-        background: none;
+        background: none !important;
+    }
+    .second-drop:hover{
+        background: none !important;
     }
 
     .box_one-new {
@@ -156,5 +159,17 @@
 @media(max-width:375px){
     div#wishlistModal .modal-dialog {
         width: 304px;
+    }
+}
+@media (max-width: 575px) {
+    .third-cat-a img {
+        width: 22px;
+    }
+  }
+  @media (max-width: 991px) {
+    .sec-ul-1, .second-offer {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
     }
 }

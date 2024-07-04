@@ -2047,6 +2047,9 @@ color: var(--color-black);
  .second-drop{
   width: 70px !important;
  }
+ .second-drop:hover{
+  background: none !important;
+}
  .third-cat-btn{
   background-color: var(--color-white) !important;
  }
