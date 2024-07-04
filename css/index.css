@@ -95,6 +95,7 @@ div#wishlistModal .modal-dialog {
 .two-select select{
   color: var(--color-two);
   font-size: var(--font-14);
+  background-color: var(--background-fourtyfive);
   font-weight: var(--font-weight-600);
 }
 
@@ -2989,7 +2990,7 @@ a.skuye:hover {
   color: var(--color-black);
   opacity: 0.8;
   font-size: 13px;
-  background: none !important;
+  background-color: var(--background-fiftytwo);
   font-weight: 500;
   font-family: var(--Jost-sans-serif);
 }

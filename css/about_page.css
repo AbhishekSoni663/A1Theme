@@ -89,11 +89,19 @@ i.fa-solid.fa-store {
     color: var(--color-white);
     opacity: 0.8;
   }
-  .ft-copy-select select{
-    color: var(--color-white);
-    opacity: 0.8;
-    background: none !important;
-  }
-
-
   
+
+  .two-select select{
+    color: var(--color-white);
+    font-size: var(--font-14);
+    background-color: var(--background-fourtyfive);
+    font-weight: var(--font-weight-600);
+  }
+  .ft-copy-select select{
+    color: var(--color-black);
+    opacity: 0.8;
+    font-size: 13px;
+    background-color: var(--background-fiftytwo);
+    font-weight: 500;
+    font-family: var(--Jost-sans-serif);
+  }
