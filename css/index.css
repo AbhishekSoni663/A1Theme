@@ -2963,11 +2963,11 @@ a.skuye:hover {
   opacity: 0.7 !important;
 }
 .chance-btn{
-  background: var(--background-fourtysix) !important;
+  background: var(--background-fiftyfour) !important;
   color: var(--color-whitesmoke) !important;
 }
 .chance-btn:hover{
-  background-color: rgb(0 147 242) !important;
+  background-color: rgb(6, 7, 7) !important;
 }
 .chance-p{
   color: var(--color-black) !important;
