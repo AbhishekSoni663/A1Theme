@@ -6,9 +6,3 @@
 }
 
 
-@media (max-width: 767px) {
-    .second-drop {
-        width: 70px !important;
-        background: none !important;
-    }
-}

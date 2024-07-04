@@ -28,3 +28,11 @@
         background: none !important;
     }
 }
+
+@media (max-width: 991px) {
+    .sec-ul-1, .second-offer {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+}

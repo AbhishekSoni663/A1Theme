@@ -549,3 +549,18 @@ html,body{
     color: white;
   }
   /*  */
+
+
+  @media (max-width: 767px) {
+    .second-drop {
+        width: 70px !important;
+        background: none !important;
+    }
+}
+@media (max-width: 991px) {
+    .sec-ul-1, .second-offer {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+}
