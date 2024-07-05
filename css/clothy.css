@@ -48,13 +48,15 @@ i.fa-solid.fa-store {
 }
 .send_btn {
     padding: 8px 15px;
-    background:  var(---white-light);
+    background-color: var(--background-fiftyfive) !important;
+    color: var(--color-white) !important;
     border-radius: 2px;
 }.send_btn:hover {
-    color: #f5efef !important;
-    background-color: #8f8f8f !important;
+    background:  var(--background-fourtyfive) !important;
 }
-
+.nd-icon{
+  color: var(--color-white);
+}
 
 /* header */
 
@@ -78,13 +80,13 @@ i.fa-solid.fa-store {
   /*  */
   
   .first-select {
-    width: 100px !important;
+    width: 80px !important;
   }
   .off-select1 {
     width: 134px !important;
   }
   .first-inp {
-    width: 68% !important;
+    width: 68%;
   }
   .first-group{
       width: 65% !important;
@@ -137,7 +139,7 @@ i.fa-solid.fa-store {
     font-weight: var(--font-weight-600);
   }
   .two-select select{
-    color: var(--color-two);
+    color: var(--color-white);
     font-size: var(--font-14);
     font-weight: var(--font-weight-600);
   }
@@ -210,7 +212,9 @@ i.fa-solid.fa-store {
     font-weight: var(--font-weight-600);
     font-family: var(--Jost-sans-serif);
   }
-  
+  .f-colr{
+    color: var(--color-white);
+  }
   /*  */
   /*  */
 
@@ -274,7 +278,7 @@ i.fa-solid.fa-store {
 }
 .box_one a {
   font-size: var(--font-17);
-  color:var(--color-black);
+  color:var(--color-white);
   opacity: 0.7;
   /* font-family: sans-serif; */
 }
@@ -293,27 +297,29 @@ i.fa-solid.fa-store {
   font-weight: var(--font-weight-600);
 }
 .fcolr{
-  color: rgb(0, 0, 0) !important;
+  color: var(--color-white) !important;
   opacity: 0.8;
 }
-
+.first-nav li a:hover, .free-ship a:hover, .social-icon i:hover {
+  color: var(--color-fourtyone) !important;
+}
 .ft-copy p{
-  color: var(--color-black);
+  color: var(--color-white);
   opacity: 0.8;
   font-weight: 500;
   font-family: var(--Jost-sans-serif);
 }
 .ft-copy-select p{
-  color: var(--color-black);
+  color: var(--color-white);
   opacity: 0.8;
   font-weight: 500;
   font-family: var(--Jost-sans-serif);
 }
 .ft-copy-select select{
-  color: var(--color-black);
+  color: var(--color-white);
   opacity: 0.8;
   font-size: 13px;
-  background-color: var(--background-fiftytwo);
+  background-color: var(--background-fourtyfive);
   font-weight: 500;
   font-family: var(--Jost-sans-serif);
 }
@@ -328,38 +334,56 @@ i.fa-solid.fa-store {
   background-color: var(--background-fourtyfive);
   font-weight: var(--font-weight-600);
 }
-.first-select , .first-select2{
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='white' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
-}
+
 .first-nav li a , .free-ship a , .social-icon i{
   color: var(--color-whitesmoke) ;
 }
-.first-nav li a:hover, .free-ship a:hover, .social-icon i:hover {
-  color: var(--color-fourty) !important;
-}
+
+
 .second-drop{
   background-color: var(--background-fourtyfour);
 }
 .second-drop:hover , .first-g-span:hover{
-  background-color: #19191b !important;
+  background-color: #3a9841 !important;
   color: white;
 }
 .sec-ul-1 li a {
   color: var(--color-thirtyeight);
 }
+.sec-ul-1 li a:hover{
+  color: var(--color-fourtyone);
+}
 .head2-a{
   color: var(--color-thirtynine) !important;
+}
+.second-offer a:hover{
+  color: var(--color-fourtyone);
 }
 .second-offer a{
   color: var(--color-thirtyeight);
 }
 .first-inp , .off-select1{
-  color: var(--color-thirtyeight) !important;
+  color: var(--color-white) !important;
 }
 .first-g-span{
   background-color: var(--background-fourtyfour) !important;
   color: var(--color-white) !important;
 }
-
+.first-inp::placeholder{
+  color: var(--color-white) !important;
+}
+.first-navbar-start{
+  background-color: var(--background-fiftyfive);
+}
+.head2-a{
+  color: var(--color-white) !important;
+}
+.head_nav2 li a i {
+  color: var(--color-white) !important;
+  font-size: var(--font-16);
+}
+.box_one a:hover {
+  color: var(--color-fourtythree) !important;
+}
 /*  */
 /*  */

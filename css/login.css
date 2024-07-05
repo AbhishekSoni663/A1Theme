@@ -129,6 +129,15 @@ li.nav-item.slaes:after {
     background-color: white; /* Adjust as needed */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
+  .off-box-new{
+    background-color: var(--background-fiftyfive) !important;
+  }
+  .sec-ul-1 li a{
+    color: var(--color-white) !important;
+  }
+  .second-offer li a{
+    color: var(--color-white);
+  }
 }
 .first-nav li a, .free-ship a, .social-icon i {
     font-size: var(--font-14);
@@ -253,4 +262,13 @@ div#productsearch::-webkit-scrollbar-track {
     height: 80vh !important;
 
 }
+.fcolr{
+    font-size: var(--font-15) !important;
+  }
+  .fcolr-a{
+    font-size: var(--font-13) !important;
+  }
+  .ft-icons i{
+    font-size: var(--font-14);
+  }
 }

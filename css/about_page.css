@@ -1,6 +1,4 @@
-*{
-    /* border: 1px solid red; */
-}
+
 body {
     font-family: var(--Jost-sans-serif) !important;
 }
@@ -104,4 +102,7 @@ i.fa-solid.fa-store {
     background-color: var(--background-fiftytwo);
     font-weight: 500;
     font-family: var(--Jost-sans-serif);
+  }
+  .first-nav li a:hover, .free-ship a:hover, .social-icon i:hover {
+    color: var(--color-fourty) !important;
   }

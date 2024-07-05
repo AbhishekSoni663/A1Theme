@@ -172,4 +172,10 @@
         display: flex;
         flex-direction: column;
     }
+    .off-select1{
+        width:104px !important;
+    }
+    .first-inp{
+        width:80px !important
+    }
 }

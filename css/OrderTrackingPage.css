@@ -19,6 +19,15 @@
     .order-track-body p{
     font-size: var(--font-13) !important;
     }
+    .fcolr{
+        font-size: var(--font-15) !important;
+      }
+      .fcolr-a{
+        font-size: var(--font-13) !important;
+      }
+      .ft-icons i{
+        font-size: var(--font-14);
+      }
 
 }
 
@@ -78,10 +87,13 @@ left: 0;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     width: 200px;
     display: flex;
-    background-color: var(--background-black);
+    background-color: var(--color-fourtyone);
     align-items: center;
     justify-content: center;
     height: 50px;
+}
+.order-track-btn button:hover{
+    background-color: var(--color-fourtytwo) !important;
 }
 .order-track-btn a{
     color: var(--color-white);
