@@ -451,4 +451,13 @@ label {
 .nd-icon{
   color: var(--color-white);
 }
+.progres_one .progress-bar{
+  background-color: var(--background-fourtyfive) !important;
+}
+.cartbtn {
+  background: var(--background-fourtyfive);
+}
+.cartbtn:hover{
+  background-color: var(--background-fiftyfive);
+}
 /*  */

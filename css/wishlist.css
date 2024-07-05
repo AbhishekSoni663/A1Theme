@@ -461,4 +461,7 @@
   .nd-icon{
     color: var(--color-white);
   }
+  .progres_one .progress-bar{
+    background-color: var(--background-fourtyfive) !important;
+  }
   /*  */
