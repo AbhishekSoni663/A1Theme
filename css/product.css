@@ -730,6 +730,12 @@ div#productsearch::-webkit-scrollbar-track {
 .product-icons {
   width: 25%;
 }
+.icon-img:hover{
+  background-color: var(--background-fourtyfive) !important;
+}
+.icon-img:hover i{
+  color: var(--color-white);
+}
 .pr-icon i {
   width: 35px;
   height: 35px;
@@ -741,8 +747,8 @@ div#productsearch::-webkit-scrollbar-track {
   color: var(--color-white);
   /* font-weight: var(--font-weight-400); */
   transform: translateX(100%);
-  background-color: var(--background-fiftyfive);
-  color: var(--color-white);
+  background-color: var(--background-white);
+  color: var(--color-black);
 
   border-radius: 50%;
   transition: transform 0.5s, opacity 0.5s;
@@ -984,12 +990,8 @@ div#productsearch::-webkit-scrollbar-track {
   height: 50px;
   margin: 13px 11px;
 }
-.icon-img:hover {
-  background-color: white !important;
-}
-.icon-img img {
-  width: 20px;
-}
+
+
 .new-prev {
   height: 100px !important;
   top: 40% !important;

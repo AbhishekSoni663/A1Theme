@@ -1301,6 +1301,7 @@ bdi.point {
 
 .drp-menu1[data-bs-popper] {
   top: 97% !important;
+  z-index: 9999;
 }
 
 .drp-menu1 li a {
@@ -1355,6 +1356,7 @@ a.fcolr {
   width: 1260px;
   left: -400px;
   top: 43px;
+  z-index: 9999;
 }
 
 .cartadd {

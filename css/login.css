@@ -104,11 +104,13 @@ input.reme_chek {
 }
 
 .rest_btn {
-    background: var(--color-primary);
+    background: var(--background-fiftyfive);
     padding: 10px 20px;
     display: inline-block;
 }
-
+.rest_btn:hover{
+  background-color: var(--background-fourtyfive);
+}
 .lost_content label {
     font-size: var(--font-14);
     color: var(--color-black);
