@@ -50,7 +50,7 @@
   position: relative;
 }
 .order-track-bar .track-bar.active:before {
-  background-color: var(--background-fifteen);
+  background-color: var(--background-fiftyfive);
 }
 .order-track-bar .track-bar::before {
   height: 7px;
@@ -63,6 +63,10 @@
 .order-track-bar .track-bar.active .track-icon {
   background-color: var(--background-twelve);
   color: var(--color-twentyTwo);
+}
+.order-track-bar .track-bar.active .track-icon.active{
+background-color: var(--background-fourtyfive);
+color: var(--color-white);
 }
 .order-track-bar .track-icon {
   width: 40px;
