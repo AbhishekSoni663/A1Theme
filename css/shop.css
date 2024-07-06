@@ -28,7 +28,7 @@ body {
 
 #sidebar-wrapper {
   z-index: 1000;
-  position: absolute;
+  position: static;
   width: 0;
   height: 100%;
   margin-left: -250px;
@@ -1080,14 +1080,16 @@ bdi.point {
 
 .option {
   margin-right: 10px;
-  background-color: #ee403d;
+  background-color: var(--background-fiftyfive);
   border-color: #ee403d;
   padding: 10px 38px;
   font-size: 15px;
   border-radius: 3px;
   font-weight: 500;
 }
-
+.option:hover{
+  background-color: var(--background-fourtyfive);
+}
 .tags {
   font-size: 14px;
 }
