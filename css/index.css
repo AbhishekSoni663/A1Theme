@@ -1902,7 +1902,7 @@ font-weight: 400;
 }
 
 .sixth-trend-h6 {
-  background-color: var(--background-white);
+  background-color: var(--background-fiftyfive);
   width: 47px;
   height: 25px;
   padding: 6px 10px !important;
@@ -1910,6 +1910,7 @@ font-weight: 400;
   margin-top: 10px;
   text-align: center;
   font-size: 13px;
+  color: var(--color-white);
 }
 
 @media(max-width:768px){
