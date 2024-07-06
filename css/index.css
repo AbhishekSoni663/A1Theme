@@ -769,8 +769,8 @@ h5.product-box {
   justify-content: center;
 }
 .pr-i1 i{
-  background: var(--background-fiftyfive);
-  color: var(--color-white);
+  background: var(--background-white);
+  color: var(--color-black);
   padding: 8px 8px;
   border-radius: 50%;
   display: flex;
@@ -1586,8 +1586,9 @@ img.banner_img3 {
   justify-content: space-between;
 }
 .custom-nav button {
-  padding: 10px 5px;
+  padding: 5px 10px;
   margin: 5px;
+  border-radius: 50%;
   background-color: var(--background-fiftyfive);
   color: var(--color-black);
   border: none;
@@ -1595,7 +1596,7 @@ img.banner_img3 {
 }
 .custom-nav button i {
   color: #d9d9d9;
-  font-size: 26px;
+  font-size: 19px;
 }
 .custom-nav button:hover i {
   color: #000000;
@@ -1959,8 +1960,8 @@ font-weight: 400;
   color: var(--color-white);
   /* / font-weight: var(--font-weight-400); / */
   transform: translateX(100%);
-  background-color: var(--background-fiftyfive);
-  color: var(--color-white);
+  background-color: var(--background-white);
+  color: var(--color-black);
 
   border-radius: 50%;
   transition: transform 0.5s, opacity 0.5s;
@@ -1976,7 +1977,7 @@ font-weight: 400;
   transition: transform 0.5s, opacity 0.5s;
 }
 .sixth-icons i:hover {
-  background-color: red;
+  background-color: var(--background-fourtyfive);
   color: var(--color-white);
 }
 .sixth-card:hover{
@@ -2644,15 +2645,15 @@ display: block;
 }
 
 .metal {
-  background: var(--background-fiftyfive);
-  color: var(--color-white);
+  background: var(--background-white);
+  color: var(--color-black);
   border-radius: 50%;
   padding: 5px 0px;
 }
 .metal i{
   padding: 6px 10px;
   border-radius: 50%;
-  color: var(--color-white);
+  color: var(--color-black);
 }
 .metal  i:hover{
   background-color: var(--background-fourtyfive);
@@ -2971,21 +2972,27 @@ background: var(--color-fourtyone) !important;
 
 /*  */
 .sixth-card{
-  background-color: var(--background-fiftyfive) !important;
+  background-color: var(--background-white) !important;
 }
 .sixth-section{
-  background-color: var(--background-fourtyfive);
+  background-color: var(--background-fiftyfive);
 }
 .sixth-trend-head h5, .sixth-trend-head h6 {
-  color: var(--color-white);
+  color: var(--color-black);
 }
 .s-p2{
   color:var(--color-primary) !important;
 }
 .s-p2 del{
-  color: var(--color-white) !important;
+  color: var(--color-black) !important;
 }
-.sixth-review span , .sixth-para p , .sixth-offer-box h6 , .s-b p , .sixth-box-head h1 , .sixth-text p{
+.sixth-review span , .sixth-para p , .sixth-offer-box h6 , .s-b p{
+  color: var(--color-black);
+}
+.sixth-box-head h1{
+  color: var(--color-white);
+}
+.sixth-text p{
   color: var(--color-white);
 }
 .chance-section{

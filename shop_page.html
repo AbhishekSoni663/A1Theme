@@ -1150,7 +1150,7 @@
                         </div>
                       </div>
                       <div class="pagination d-flex justify-content-between mb-1">
-                        <div class="page-bar"></div>
+                        <div class="page-bar hovered"></div>
                         <div class="page-bar1"></div>
                         <div class="page-bar2"></div>
                         <div class="page-bar3"></div>
@@ -1702,6 +1702,15 @@
         const pageBar2 = product.querySelector('.page-bar2');
         const pageBar3 = product.querySelector('.page-bar3');
 
+        let originalHoveredBar = null;
+
+        // Determine the originally hovered bar
+        pageBars.forEach(bar => {
+          if (bar.classList.contains('hovered')) {
+            originalHoveredBar = bar;
+          }
+        });
+
         function handleMouseOver(box, imageUrl, head, bar) {
           box.addEventListener('mouseover', function () {
             head.style.backgroundImage = `url('${imageUrl}')`;
@@ -1711,7 +1720,10 @@
 
           box.addEventListener('mouseout', function () {
             head.style.backgroundImage = "";
-            bar.classList.remove('hovered');
+            pageBars.forEach(bar => bar.classList.remove('hovered'));
+            if (originalHoveredBar) {
+              originalHoveredBar.classList.add('hovered');
+            }
           });
         }
 

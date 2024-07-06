@@ -222,12 +222,12 @@ select.one {
 }
 
 h5.product-box {
-  background: #ffffff;
+  background: var(--background-fourtyfive);
   height: 22px;
   margin: 10px;
   display: flex;
   padding: 0 12px;
-  color: #47B484;
+  color: var(--color-white);
   width: 50px;
   font-family: var(--Jost-sans-serif);
   font-size: 12px;
@@ -296,7 +296,7 @@ h5.product-box {
 }
 
 .pr-icon i:hover {
-  background-color: red;
+  background-color: var(--background-fiftyfive);
   color: #fff;
 }
 
@@ -427,7 +427,7 @@ h5.product-box {
 .page-bar1.hovered,
 .page-bar2.hovered,
 .page-bar3.hovered {
-  background-color: #b2b2b2;
+  background-color: var(--background-fourtyfive);
 }
 
 .product-head {
