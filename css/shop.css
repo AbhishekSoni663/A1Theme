@@ -1073,25 +1073,25 @@ bdi.point {
 
 .loremi {
   font-size: 14px;
-  color: #75767c;
-  border-bottom: 1px solid #dee0ea;
+  color: var(--color-fiftyseven);
+  border-bottom: var(--border-eight);
   padding-bottom: 30px;
 }
 
 .option {
   margin-right: 10px;
   background-color: var(--background-fiftyfive);
-  border-color: #ee403d;
+  border-color: var(--background-twentynine);
   padding: 10px 38px;
-  font-size: 15px;
+  font-size: var(--font-15);
   border-radius: 3px;
-  font-weight: 500;
+  font-weight: var(--font-500);
 }
 .option:hover{
   background-color: var(--background-fourtyfive);
 }
 .tags {
-  font-size: 14px;
+  font-size: var(--font-14);
 }
 
 .Women {
@@ -1099,30 +1099,30 @@ bdi.point {
 }
 
 .views {
-  font-size: 13px;
-  font-weight: 500;
+  font-size: var(--font-13);
+  font-weight: var(--font-weight-500);
 }
 
 .product-title {
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .amet {
-  font-size: 16px;
+  font-size: var(--font-16);
 }
 
 .weight {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .Pants {
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-12);
 }
 
 .Womens {
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-12);
 }
 
 .product-head5 {
@@ -1180,7 +1180,7 @@ bdi.point {
     top: 0;
     background-color: var(--background-white);
     /* Adjust as needed */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow-eighteen);
   }
 }
 
@@ -1366,7 +1366,7 @@ a.fcolr {
 }
 
 .progress-bar {
-  background: #dc3545 !important;
+  background: var(--backgroun-color-seven) !important;
 }
 
 .progres_one {
@@ -1380,8 +1380,8 @@ a.fcolr {
 
 .redfontnumber {
   font-size: 18px;
-  color: #ef262c;
-  font-weight: 600;
+  color: var(--color-eleven);
+  font-weight: var(--font-weight-600);
   font-family: var(--jostfont);
 }
 
@@ -1421,7 +1421,7 @@ a.fcolr {
 
 /* background color */
 .box_one a:hover {
-  color: rgb(151, 167, 180) !important;
+  color: var(--color-fourtyfive) !important;
 }
 
 .box_one a {
@@ -1511,8 +1511,8 @@ a.fcolr {
 
 .second-drop:hover,
 .first-g-span:hover {
-  background-color: #3a9841 !important;
-  color: white;
+  background-color: var(--background-sixtyfive) !important;
+  color: var(--color-white);
 }
 
 .sec-ul-1 li a {

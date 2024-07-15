@@ -189,8 +189,8 @@ html,body{
       transform: scale(0.75);
       -webkit-transform-origin: 50% 0;
       transform-origin: 50% 0;
-      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.09);
-      background-color: #fff;
+      box-shadow: var(--box-shadow-eleven);
+      background-color: var(--background-white);
       border-radius: 6px;
       margin-top: 4px;
       padding: 3px 0;
@@ -203,7 +203,7 @@ html,body{
       z-index: 999;
       max-height: 250px;
       overflow: auto;
-      border: 1px solid #ddd;
+      border: var(--border-seven);
   }
   
   .dropdown-select .list:hover .option:not(:hover) {
@@ -216,13 +216,13 @@ html,body{
   .dropdown-select .dd-searchbox{
     width:100%;
     padding:-0.5rem;
-    border:1px solid #999;
-    border-color:#999;
+    border:var(--border-thirteen);
+    border-color:var(--border-twentyeight);
     border-radius:4px;
     outline:none;
   }
   .dropdown-select .dd-searchbox:focus{
-    border-color:#12CBC4;
+    border-color:var(--border-color-six);
   }
   
   .dropdown-select .list ul {
@@ -243,30 +243,30 @@ html,body{
   
   .dropdown-select .option:hover,
   .dropdown-select .option:focus {
-      background-color: #0073aa !important;
+      background-color: var(--background-thirtytwo) !important;
   }
   
   .nav-link.active {
-    background-color: red; /* Red background color */
-    color: white; /* White text color */
+    background-color: var(--background-red); /* Red background color */
+    color: var(--color-white); /* White text color */
 }
   .dropdown-select .option.selected {
       font-weight: 600;
-      color: #12cbc4;
+      color: var(--color-thirtyfour);
   }
   
   .dropdown-select .option.selected:focus {
-      background: #f6f6f6;
+      background: var(--background-thirtythree);
   }
   
   .dropdown-select a {
-      color: #aaa;
+      color: var(--color-thirtyfive);
       text-decoration: none;
       transition: all 0.2s ease-in-out;
   }
   
   .dropdown-select a:hover {
-      color: #666;
+      color: var(--color-fiftyfive);
   }
   /* logo page */
 
@@ -420,7 +420,7 @@ html,body{
     padding: 20px;
   }
   .progress-bar {
-    background: #dc3545 !important;
+    background: var(--backgroun-color-seven) !important;
   }
   .progres_one {
     height: 6px !important;
@@ -430,9 +430,9 @@ html,body{
     font-size: var(--font-14-);
   }
   .redfontnumber {
-    font-size: 18px;
-    color: #ef262c;
-    font-weight: 600;
+    font-size: var(--font-18);
+    color: var(--color-eleven);
+    font-weight: var(--font-weight-600);
     font-family: var(--jostfont);
   }
   .redspan {
@@ -465,7 +465,7 @@ html,body{
   
 /* background color */
 .box_one a:hover{
-  color: rgb(151, 167, 180) !important;
+  color: var(--color-fiftysix) !important;
 }
 .box_one a {
   font-size: var(--font-17);
@@ -497,7 +497,7 @@ html,body{
 .ft-copy p{
   color: var(--color-white);
   opacity: 0.8;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
   font-family: var(--Jost-sans-serif);
 }
 .ft-copy-select p{

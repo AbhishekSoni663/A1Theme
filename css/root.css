@@ -98,16 +98,30 @@
   --color-thirtyone: #90a0a3;
   --color-thirtytwo: #9e9e9e;
   --color-thirtythree: #2c3e51;
-  --color-thirtyfour:#12cbc4;
-  --color-thirtyfive:#aaa;
---color-thirty-six:#c9b1da;
---color-thirtyseven:#be8b94;
---color-thirtyeight:#000000d1;
---color-thirtynine:#000000b3;
---color-fourty:#b5b4b6;
---color-fourtyone:#45b44d;
---color-fourtytwo:#3fa547;
---color-fourtythree:#a27d16;
+  --color-thirtyfour: #12cbc4;
+  --color-thirtyfive: #aaa;
+  --color-thirty-six: #c9b1da;
+  --color-thirtyseven: #be8b94;
+  --color-thirtyeight: #000000d1;
+  --color-thirtynine: #000000b3;
+  --color-fourty: #b5b4b6;
+  --color-fourtyone: #45b44d;
+  --color-fourtytwo: #3fa547;
+  --color-fourtythree: #a27d16;
+  --color-fourtyfour:#2c2c5e;
+  --color-fourtyfive:rgb(151, 167, 180);
+  --color-fourtysix:#47b486;
+  --color-fourtyseven:salmon;
+  --color-fourtyeight:#f5f5f5;
+  --color-fourtynine:#d9d9d9;
+  --color-fifty:rgb(26, 21, 21);
+  --color-fiftyone:#b2b2b2;
+  --color-fiftytwo:#be8b94;
+  --color-fiftythree:rgba(0, 0, 0, 0);
+  --color-fiftyfour:#58ba83;
+  --color-fiftyfive:#666;
+  --color-fiftysix:rgb(151, 167, 180);
+  --color-fiftyseven:#75767c;
 
   --btn-bg-color: #0046be;
 
@@ -121,8 +135,8 @@
   --border-color-two: 1px solid #f0f0f0;
   --border-color-three: 1px solid #00000014;
   --border-color-four: 1px solid rgba(225, 227, 232, 0.18);
-  --border-color-five:#999;
-  --border-color-six:#12CBC4;
+  --border-color-five: #999;
+  --border-color-six: #12cbc4;
   --border-five: #0c0d0d;
   --border-six: 1px solid #0000002b;
   --border-seven: 1px solid #ddd;
@@ -133,14 +147,21 @@
   --border-twelve: 1px solid #ddd;
   --border-thirteen: 1px solid #999;
   --border-fourteen: #12cbc4;
-  --border-fifteen:4px solid transparent;
+  --border-fifteen: 4px solid transparent;
   --border-sixteen: 4px solid #777;
   --border-seventeen: 2px solid #dee0ea;
   --border-eighteen: 2px solid #ee403d;
-  --border-ninteen:1px solid whitesmoke;
-
-
-
+  --border-ninteen: 1px solid whitesmoke;
+  --border-twenty:1px solid #ebefea;
+  --border-twentyone:1px solid gray;
+  --border-twentytwo:1px solid #DFE3E7;
+  --border-twentythree:1px solid #ccc;
+  --border-twentyfour:1px solid red;
+  --border-twentyfive:#DFE3E7;
+  --border-twentysix:1px solid #ebebeb;
+  --border-twentyseven:2px solid #f5f5f587;
+  --border-twentyeight:#999;
+  --border-twentynine:#ee403d;
 
   --border-radius: 3px;
   --border-radius-one: 2px;
@@ -156,7 +177,7 @@
   --backgroun-color-seven: #dc3545;
   --background-white: #ffffff;
   --background-black: #000;
-  --background-red:red;
+  --background-red: red;
   --background-eight: #007aff;
   --background-nine: #e0e0e0;
   --background-ten: #b2b2b2;
@@ -181,27 +202,46 @@
   --background-twentynine: #b2b2b2;
   --background-thirty: #eeeeee;
   --background-thirtyone: #f5f5f5;
-  --background-thirtytwo:#0073aa;
-  --background-thirtythree:#f6f6f6;
-  --background-thirtyfour:#eff0f3;
-  --background-thirtyeight:#5c4a4a;
-  --background-thirtynine:#2d8421;
-  --background-fourty:#aeb9be;
-  --background-fourtyone:#ef262c;
-  --background-fourtytwo:#19191b;
-  --background-fourtythree:#091928b8;
-  --background-fourtyfour:#45b44d;
-  --background-fourtyfive:#3c8f43;
-  --background-fourtysix:rgb(123 119 6);
-  --background-fourtyseven:#f9f9f9;
-  --background-fourtyeight:#111111;
-  --background-fourtynine:#2c2c2c;
---background-fifty:#F6F5F2;
---background-fiftyone:#F0EBE3;
---background-fiftytwo:#F3D0D7;
---background-fiftythree:#FFEFEF;
---background-fiftyfour:rgb(90 90 77);
---background-fiftyfive:#45b44d;
+  --background-thirtytwo: #0073aa;
+  --background-thirtythree: #f6f6f6;
+  --background-thirtyfour: #eff0f3;
+  --background-thirtyeight: #5c4a4a;
+  --background-thirtynine: #2d8421;
+  --background-fourty: #aeb9be;
+  --background-fourtyone: #ef262c;
+  --background-fourtytwo: #19191b;
+  --background-fourtythree: #091928b8;
+  --background-fourtyfour: #45b44d;
+  --background-fourtyfive: #3c8f43;
+  --background-fourtysix: rgb(123 119 6);
+  --background-fourtyseven: #f9f9f9;
+  --background-fourtyeight: #111111;
+  --background-fourtynine: #2c2c2c;
+  --background-fifty: #f6f5f2;
+  --background-fiftyone: #f0ebe3;
+  --background-fiftytwo: #f3d0d7;
+  --background-fiftythree: #ffefef;
+  --background-fiftyfour: rgb(90 90 77);
+  --background-fiftyfive: #45b44d;
+  --background-fiftysix: #80808014;
+  --background-fiftyseven:linear-gradient(120deg, #5898ff 0%, #c2e9fb 100%);
+  --background-fiftyeight:linear-gradient(to right, #0ED2F7, #B2FEFA);
+  --background-fiftynine:linear-gradient(to right, #5B86E5, #36D1DC);
+  --background-sixty:linear-gradient(to right, #F8FFAE, #43C6AC);
+  --background-sixtyone:linear-gradient(to right, #0ED2F7, #B2FEFA);
+  --background-sixtytwo:#f7f8f9;
+  --background-sixtythree:#f8f9fa;
+  --background-sixtyfour:beige;
+  --background-sixtyfive:#3a9841;
+  --background-sixtysix:#060707;
+  --background-sixtyseven:#e5f3ff59;
+  --background-sixtyeight:lightsalmon;
+  --background-sixtynine:#007bff;
+  --background-seventy:#222b32;
+  --background-seventyone:linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 70%);
+  --background-seventytwo:#0046be;
+  --background-seventythree:rgb(6, 7, 7);
+  --background-alice:aliceblue;
 
 
   --box-shadow-two: 0 0 0 0 rgb(8 8 8 / 25%);
@@ -216,8 +256,13 @@
   --box-shadow-nine: inset 0 0 6px rgba(0, 0, 0, 0.3);
   --box-shadow-ten: 0 0 0 0 rgb(2 2 3);
   --box-shadow-eleven: 0 0 0 1px rgba(0, 0, 0, 0.09);
-  --box-shadow-twelve:0 1px 4px rgba(0, 0, 0, 0.05) inset;
-  --box-shadow-thirteen:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  --box-shadow-twelve: 0 1px 4px rgba(0, 0, 0, 0.05) inset;
+  --box-shadow-thirteen: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   --box-shadow-forteen: 0px 0px 5px 1px #dfd8d8;
-  
+  --box-shadow-fifteen:0px 0px 10px 0px #6b616157;
+  --box-shadow-sixteen:rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  --box-shadow-seventeen:rgba(80, 60, 60, 0.1) 0px 4px 12px;
+  --box-shadow-eighteen:0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-ninteen:rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }

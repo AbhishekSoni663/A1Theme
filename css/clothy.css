@@ -344,8 +344,8 @@ i.fa-solid.fa-store {
   background-color: var(--background-fourtyfour);
 }
 .second-drop:hover , .first-g-span:hover{
-  background-color: #3a9841 !important;
-  color: white;
+  background-color: var(--background-sixtyfive) !important;
+  color: var(--color-white);
 }
 .sec-ul-1 li a {
   color: var(--color-thirtyeight);

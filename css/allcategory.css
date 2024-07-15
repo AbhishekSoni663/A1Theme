@@ -4,7 +4,7 @@ body {
 .categy_item {
     width: 200px;
     box-shadow: var(--box-shadow-forteen);
-    background: #80808014;
+    background: var(--background-fiftysix);
 }
 .categy_item  img {
     width: 60px;
@@ -12,14 +12,14 @@ body {
 .categy_item  h4 {
     font-size: 20px;
     font-weight: 600;
-	color:#2c2c5e;
+	color:var(--color-fourtyfour);
 }
 .categre_conten{
     flex-wrap: wrap;
 }
 .categy_item p {
     font-size: 20px;
-    color: #2c2c5e;
+    color: var(--color-fourtyfour);
     font-weight: 600;
 }
 .categy_imgbox {
@@ -31,25 +31,25 @@ body {
     align-items: center;
     justify-content: center;
     left: -31px;
-    box-shadow: 0px 0px 10px 0px #6b616157;
-	background: linear-gradient(120deg, #5898ff 0%, #c2e9fb 100%);
+    box-shadow: var(--box-shadow-fifteen);
+	background: var(--background-fiftyseven);
 }
 
 div#categy_item1 {
-    background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+    background: var(--background-fiftyeight);
 }
 div#categy_item2 {
  
-background: linear-gradient(to right, #5B86E5, #36D1DC); 
+background: var(--background-fiftynine); 
 
 }
 div#categy_item3 {
 
-background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: var(--background-sixty); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 div#categy_item4 {
-    background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+    background: var(--background-sixtyone);
 }
 
 

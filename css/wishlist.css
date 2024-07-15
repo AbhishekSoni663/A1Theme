@@ -37,7 +37,7 @@
 }.ret_shop {
   background: var(--background-fourtyfive);
     display: inline-block !important;
-    font-family: Jost, sans-serif;
+    font-family: var(--Jost-sans-serif);
 }
 .ret_shop:hover{
   background: var(--background-fiftyfive);
@@ -73,7 +73,7 @@
       position: fixed;
       top: 0;
       background-color: var(--background-white); /* Adjust as needed */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: var(--box-shadow-eighteen);
     }
   }
   /*  */
@@ -224,7 +224,7 @@
     padding: 20px;
   }
   .progress-bar {
-    background: #dc3545 !important;
+    background: var(--backgroun-color-seven) !important;
   }
   .progres_one {
     height: 6px !important;
@@ -235,7 +235,7 @@
   }
   .redfontnumber {
     font-size: 18px;
-    color: #ef262c;
+    color: var(--color-eleven);
     font-weight: 600;
     font-family: var(--jostfont);
   }
@@ -273,7 +273,7 @@
   
   /* background color */
   .box_one a:hover{
-    color: rgb(151, 167, 180) !important;
+    color: var(--color-fourtyfive) !important;
   }
   .box_one a {
     font-size: var(--font-17);
@@ -314,7 +314,7 @@
   .ft-copy-select p{
     color: var(--color-white);
     opacity: 0.8;
-    font-weight: 500;
+    font-weight: var(--font-weight-500);
     font-family: var(--Jost-sans-serif);
   }
   .ft-copy-select select{
@@ -322,7 +322,7 @@
     opacity: 0.8;
     font-size: 13px;
     background-color: var(--background-fourtyfive);
-    font-weight: 500;
+    font-weight: var(--font-weight-500);
     font-family: var(--Jost-sans-serif);
   }
   
@@ -346,8 +346,8 @@
     background-color: var(--background-fourtyfour);
   }
   .second-drop:hover , .first-g-span:hover{
-    background-color: #3a9841 !important;
-    color: white;
+    background-color: var(--background-sixtyfive) !important;
+    color: var(--color-white);
   }
   .sec-ul-1 li a {
     color: var(--color-thirtyeight);
@@ -462,6 +462,6 @@
     color: var(--color-white);
   }
   .progres_one .progress-bar{
-    background-color: var(--background-fourtyfive) !important;
+    background-color: var(--background-fourtyfive)!important;
   }
   /*  */

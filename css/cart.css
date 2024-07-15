@@ -298,13 +298,13 @@ label {
   }
   .greyfontopacity {
     opacity: 0.4;
-    font-size: var(--font-14-);
+    font-size: var(--font-14);
   }
   .redfontnumber {
     font-size: 18px;
-    color: #ef262c;
+    color: var(--color-eleven);
     font-weight: 600;
-    font-family: var(--jostfont);
+    font-family: var(--Jost-sans-serif);
   }
   .redspan {
     color: var(--color-eleven);
@@ -337,7 +337,7 @@ label {
    
 /* background color */
 .box_one a:hover{
-  color: rgb(151, 167, 180) !important;
+  color: var(--color-fourtyfive) !important;
 }
 .box_one a {
   font-size: var(--font-17);
@@ -347,7 +347,7 @@ label {
 }
 .box_botm p {
   font-size: var(--font-16);
-  font-family: sans-serif;
+  font-family: var(--Jost-sans-serif);
   color: var(--color-fourteen);
 }
 .box_botm select {
@@ -407,8 +407,8 @@ label {
   background-color: var(--background-fourtyfour);
 }
 .second-drop:hover , .first-g-span:hover{
-  background-color: #3a9841 !important;
-  color: white;
+  background-color: var(--background-sixtyfive) !important;
+  color: var(--color-white);
 }
 .sec-ul-1 li a {
   color: var(--color-thirtyeight);

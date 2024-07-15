@@ -37,6 +37,7 @@ p.elementor_pare {
     bottom: -30px;
     z-index: 14;
     position: absolute;
+    left: 10px;
 }
 .clothy_title 
 h4 {
@@ -48,7 +49,7 @@ a {
     color: var(--color-primary);
 }
 i.fa-solid.fa-store {
-    color: #ee403dad;
+    color: var(--color-four);
     font-size:  var(--font-24);
 }
 .send_btn {
@@ -64,7 +65,7 @@ i.fa-solid.fa-store {
 /* new css */
 
 .forline {
-    border-top: 1px solid #dee0ea;
+    border-top: var(--border-eight);
 }
 .point {
     font-size: var(--font-30);
@@ -98,7 +99,7 @@ i.fa-solid.fa-store {
   .ft-copy-select select{
     color: var(--color-black);
     opacity: 0.8;
-    font-size: 13px;
+    font-size: var(--font-13);
     background-color: var(--background-fiftytwo);
     font-weight: 500;
     font-family: var(--Jost-sans-serif);

@@ -75,10 +75,10 @@ color: var(--color-white);
   display: inline-block;
   border-radius: 100%;
   line-height: 40px;
-  background: aliceblue;
+  background: var(----background-alice);
 }
 .order-track-bar .track-bar.active .track-text {
-  color: black;
+  color: var(--color-black);
 }
 .order-track-bar .track-text {
   display: block;
@@ -87,7 +87,7 @@ color: var(--color-white);
   margin-top: 7px;
 }
 .order-track-btn button {
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  box-shadow: var(--box-shadow-ninteen);
   width: 200px;
   display: flex;
   background-color: var(--color-fourtyone);
@@ -176,7 +176,7 @@ color: var(--color-white);
     display: inline-block;
     border-radius: 100%;
     line-height: 30px;
-    background: aliceblue;
+    background: var(----background-alice);
   }
   .track-icon i {
     font-size: var(--font-12);
@@ -206,7 +206,7 @@ color: var(--color-white);
   }
 }
 .order-track-card .card {
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  box-shadow: var(--box-shadow-ninteen);
   margin-top: 5px;
 }
 .custom-navOneOrder {
