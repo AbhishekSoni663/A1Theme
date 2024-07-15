@@ -421,6 +421,9 @@ div#productsearch::-webkit-scrollbar-track {
         display: flex;
         flex-direction: column;
     }
+    .login-mag-icon{
+      display: none !important;
+    }
     .first-group {
       width: 100% !important;
     }
